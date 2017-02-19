@@ -9,33 +9,33 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/gallery"
-            android:title="Gallery" />
+            android:title="About Us" />
         <item
             android:id="@+id/nav_forum"
             android:icon="@drawable/forum"
-            android:title="Forum" />
+            android:title="" />
         <item
             android:id="@+id/nav_contact"
             android:icon="@drawable/contact"
-            android:title="Contact" />
+            android:title="" />
     </group>
 
-    /*<item android:title="More">*/
+    <item android:title="">
         <menu>
             <item
                 android:id="@+id/nav_setting"
                 android:icon="@drawable/setting"
-                android:title="Setting" />
+                android:title="" />
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/share"
-                android:title="Share" />
+                android:title="" />
             <item
                 android:id="@+id/nav_aboutus"
                 android:icon="@drawable/aboutus"
-                android:title="About Us" />
+                android:title="" />
 
         </menu>
-    /*</item>>*/
+    </item>>
 
 </menu>

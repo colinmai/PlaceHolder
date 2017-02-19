@@ -1,13 +1,48 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.xterstar.www.placeholder.MainFragment">
+    tools:context="com.xterstar.www.placeholder.MainFragment"
+    android:background="@color/colorWhite">
 
-    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Life"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:id="@+id/Life_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/School_button"
+        android:layout_alignStart="@+id/School_button"
+        android:layout_marginBottom="101dp" />
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="School"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:id="@+id/School_button"
+        android:layout_above="@+id/Life_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Welcome to PlaceHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@color/colorIcons" />
 
-</FrameLayout>
+</RelativeLayout>
