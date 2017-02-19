@@ -21,16 +21,6 @@
         tools:textStyle="bold" />
 
     <Button
-        android:text="Poly S 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView6"
-        android:layout_toLeftOf="@+id/textView6"
-        android:layout_toStartOf="@+id/textView6"
-        android:layout_marginTop="22dp"
-        android:id="@+id/button18" />
-
-    <Button
         android:text="Poly S 6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,5 +56,15 @@
         android:layout_below="@+id/button21"
         android:layout_centerHorizontal="true"
         android:textSize="30sp" />
+
+    <Button
+        android:text="Poly S 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/button18"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

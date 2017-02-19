@@ -49,11 +49,45 @@ public class Login extends AppCompatActivity {
             }
         });
 
+
+        final EditText editUsername = (EditText) findViewById(R.id.editUsername);
+        final EditText editPassword = (EditText) findViewById(R.id.editPassword);
+
+        final Button editLogin = (Button) findViewById(R.id.editLogin);
+        final TextView registerLink = (TextView) findViewById(R.id.textRegisterhere);
+
+        registerLink.setOnClickListener(new View.OnClickListener()
+                                        {
+                                            public void onClick(View v){
+                                                Intent registerIntent = new Intent(Login.this, Register.class);
+                                                Login.this.startActivity(registerIntent);
+
+
+                                            }
+
+
+                                        }
+
+
+
+
+        );
+
+
+        editLogin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent registerIntent = new Intent(Login.this,TTest.class);
+                Login.this.startActivity(registerIntent);
+            }
+        });
+
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }
+
 }
 
 /*super.onCreate(savedInstanceState);
