@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.ethClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.ethClass">
 
     <TextView
         android:text="Ethnicity"
@@ -22,8 +23,8 @@
 
     <Button
         android:text="AS Am 4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/textView14"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -32,16 +33,16 @@
 
     <Button
         android:text="as am 5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button37"
         android:layout_centerHorizontal="true"
         android:id="@+id/button38" />
 
     <Button
         android:text="as am 9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button38"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -49,8 +50,8 @@
 
     <Button
         android:text="bl st 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/button37"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -59,16 +60,16 @@
 
     <Button
         android:text="bl st 4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button40"
         android:layout_alignLeft="@+id/button38"
         android:layout_alignStart="@+id/button38"
         android:id="@+id/button41" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button41"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -77,8 +78,8 @@
 
     <Button
         android:text="ch st 1a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/button40"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -87,8 +88,8 @@
 
     <Button
         android:text="ch st 1b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button43"
         android:layout_alignLeft="@+id/button41"
         android:layout_alignStart="@+id/button41"
@@ -102,6 +103,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp"
         android:id="@+id/textView15"
-        tools:textSize="30sp" />
+        android:textSize="20sp" />
 
 </RelativeLayout>

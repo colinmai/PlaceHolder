@@ -10,10 +10,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/> //FIREBASE
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        //FIREBASE
         <activity
-            android:name=".Login"
-            android:label="Login">
+            android:name=".SplashScreen"
+            android:label="PlaceHolder"
+
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,17 +40,22 @@
             android:name=".Register"
             android:label="Register" />
         <activity android:name=".Subjects" />
-        <activity android:name=".csClass" />
-        <activity android:name=".econClass" />
-        <activity android:name=".chemClass" />
-        <activity android:name=".physicsClass" />
-        <activity android:name=".mathClass" />
-        <activity android:name=".commClass" />
-        <activity android:name=".artClass" />
-        <activity android:name=".psychClass" />
-        <activity android:name=".poliClass" />
-        <activity android:name=".otherClass" />
-        <activity android:name=".ethClass"></activity>
+        <activity android:name=".SubjectActivities.csClass" />
+        <activity android:name=".SubjectActivities.econClass" />
+        <activity android:name=".SubjectActivities.chemClass" />
+        <activity android:name=".SubjectActivities.physicsClass" />
+        <activity android:name=".SubjectActivities.mathClass" />
+        <activity android:name=".SubjectActivities.commClass" />
+        <activity android:name=".SubjectActivities.artClass" />
+        <activity android:name=".SubjectActivities.psychClass" />
+        <activity android:name=".SubjectActivities.poliClass" />
+        <activity android:name=".SubjectActivities.otherClass" />
+        <activity android:name=".PostTest" />
+        <activity android:name=".SubjectActivities.ethClass" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".PostFullScreen"
+            android:windowSoftInputMode="adjustResize"/>
     </application>
 
 </manifest>

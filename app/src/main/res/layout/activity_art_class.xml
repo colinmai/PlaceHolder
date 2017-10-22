@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_art_class"
@@ -8,110 +9,115 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.artClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.artClass">
 
-    <TextView
-        android:text="Art/Music"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView12"
-        tools:textSize="36sp"
-        tools:textStyle="bold" />
 
-    <Button
-        android:text="Art 7c"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button28"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button29" />
-
-    <Button
-        android:text="Arthi 6b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button31"
-        android:layout_alignRight="@+id/button29"
-        android:layout_alignEnd="@+id/button29"
-        android:id="@+id/button32" />
 
     <Button
         android:text="Mus 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button32"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/arthi6b"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/button33" />
-
-    <Button
-        android:text="Mus 17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button35"
-        android:layout_alignLeft="@+id/button33"
-        android:layout_alignStart="@+id/button33"
-        android:id="@+id/button36" />
+        android:id="@+id/mus1" />
 
     <TextView
         android:text="More to be added soon..."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button35"
+        android:layout_below="@+id/mus15"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
         android:id="@+id/textView13"
-        tools:textSize="30sp" />
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Arthi 1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/arthi1"
+        android:layout_below="@+id/art1a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Arthi 6b"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/arthi6b"
+        android:layout_alignBaseline="@+id/arthi1"
+        android:layout_alignBottom="@+id/arthi1"
+        android:layout_alignLeft="@+id/art7c"
+        android:layout_alignStart="@+id/art7c" />
+
+    <Button
+        android:text="Art 7c"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/art7c"
+        android:layout_above="@+id/arthi1"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Art 7d"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button30"
-        android:layout_alignBaseline="@+id/button29"
-        android:layout_alignBottom="@+id/button29"
-        android:layout_alignLeft="@+id/button33"
-        android:layout_alignStart="@+id/button33" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/art7d"
+        android:layout_alignBaseline="@+id/art7c"
+        android:layout_alignBottom="@+id/art7c"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Mus 15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button35"
-        android:layout_below="@+id/button31"
-        android:layout_alignLeft="@+id/button32"
-        android:layout_alignStart="@+id/button32"
-        android:layout_marginTop="13dp" />
+        android:text="Art 1a"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/art1a"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Mus 17"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mus17"
+        android:layout_below="@+id/mus1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp" />
 
     <Button
         android:text="Mus 11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button34"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mus11"
         android:layout_above="@+id/textView13"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Arthi 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:id="@+id/button31"
-        android:layout_below="@+id/button28"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:text="Mus 15"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mus15"
+        android:layout_alignBaseline="@+id/mus17"
+        android:layout_alignBottom="@+id/mus17"
+        android:layout_alignLeft="@+id/arthi6b"
+        android:layout_alignStart="@+id/arthi6b" />
 
-    <Button
-        android:text="Art 1a"
+    <TextView
+        android:text="Art/Music"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:id="@+id/button28"
-        android:layout_below="@+id/textView12"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/textView12"
+        android:textSize="30sp"
+        tools:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.commClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.commClass">
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,27 +23,27 @@
 
     <Button
         android:text="Comm 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/textView10"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="18dp"
-        android:id="@+id/button25" />
+        android:id="@+id/PSTAT120Abutton" />
 
     <Button
         android:text="Comm 87"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button25"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/PSTAT120Abutton"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button26" />
+        android:id="@+id/PSTAT120Bbutton" />
 
     <Button
         android:text="Comm 88"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button26"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/PSTAT120Bbutton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/button27" />

@@ -22,49 +22,13 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        final EditText editAge = (EditText) findViewById(R.id.editAge);
-        final EditText editName = (EditText) findViewById(R.id.editName);
+        //final EditText editAge = (EditText) findViewById(R.id.editAge)
+        // final EditText editName = (EditText) findViewById(R.id.editName);
         final EditText editUsername = (EditText) findViewById(R.id.editUsername);
         final EditText editPassword = (EditText) findViewById(R.id.editPassword);
 
         final Button editRegister = (Button) findViewById(R.id.editRegister);
 
 
-        //new edits
-        editRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                final String name = editName.getText().toString();
-                final String username = editUsername.getText().toString();
-                final int age = Integer.parseInt(editAge.getText().toString());
-                final String password = editPassword.getText().toString();
 
-                Response.Listener<String> responseListener = new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            JSONObject jsonResponse = new JSONObject(response);
-                            boolean success = jsonResponse.getBoolean("success");
-                            if (success) {
-                                Intent intent = new Intent(Register.this, Login.class);
-                                Register.this.startActivity(intent);
-                            } else {
-                                AlertDialog.Builder builder = new AlertDialog.Builder(Register.this);
-                                builder.setMessage("Register Failed")
-                                        .setNegativeButton("Retry", null)
-                                        .create()
-                                        .show();
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                };
-
-                RegisterRequest registerRequest = new RegisterRequest(name, username, age, password, responseListener);
-                RequestQueue queue= Volley.newRequestQueue(Register.this);
-                queue.add(registerRequest);
-            }
-        });
-    }
-}
+}}

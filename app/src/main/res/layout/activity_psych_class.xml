@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.psychClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.psychClass">
 
     <TextView
         android:text="Psychology"
@@ -22,39 +23,39 @@
 
     <Button
         android:text="Psy 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/textView8"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="28dp"
-        android:id="@+id/button22" />
+        android:id="@+id/math6Abutton" />
 
     <Button
         android:text="Psy 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button22"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/math6Abutton"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button23" />
+        android:id="@+id/math6Bbutton" />
 
     <Button
         android:text="Psy 5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button23"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/math6Bbutton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/button24" />
+        android:id="@+id/math8button" />
 
     <TextView
         android:text="More to be added soon..."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button23"
+        android:layout_below="@+id/math6Bbutton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="164dp"
         android:id="@+id/textView9"
-        tools:textSize="36sp" />
+        android:textSize="25sp" />
 
 </RelativeLayout>

@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.physicsClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.physicsClass">
 
     <TextView
         android:text="Physics"
@@ -21,33 +22,23 @@
         android:textStyle="normal|bold" />
 
     <Button
-        android:text="Physics 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/button33"
-        android:layout_below="@+id/textView10"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="Physics 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button34"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/mus11"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/button35" />
+        android:id="@+id/mus15" />
 
     <Button
         android:text="Physics 4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button33"
-        android:layout_alignRight="@+id/button33"
-        android:layout_alignEnd="@+id/button33"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mus1"
+        android:layout_alignRight="@+id/mus1"
+        android:layout_alignEnd="@+id/mus1"
         android:layout_marginTop="26dp"
-        android:id="@+id/button36" />
+        android:id="@+id/mus17" />
 
     <TextView
         android:text="More to be added soon..."
@@ -60,31 +51,41 @@
         tools:textSize="50sp" />
 
     <Button
-        android:text="Physics 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button34"
-        android:layout_alignBaseline="@+id/button33"
-        android:layout_alignBottom="@+id/button33"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="Physics 6a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button37"
-        android:layout_alignBaseline="@+id/button36"
-        android:layout_alignBottom="@+id/button36"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:text="Physics 6b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:id="@+id/button38"
         android:layout_alignBaseline="@+id/button37"
         android:layout_alignBottom="@+id/button37"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Physics 1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="26dp"
+        android:id="@+id/mus1"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Physics 2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mus11"
+        android:layout_alignBottom="@+id/mus1"
+        android:layout_alignLeft="@+id/button37"
+        android:layout_alignStart="@+id/button37"
+        android:layout_alignTop="@+id/mus1" />
+
+    <Button
+        android:text="Physics 6a"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/button37"
+        android:layout_alignTop="@+id/mus17"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

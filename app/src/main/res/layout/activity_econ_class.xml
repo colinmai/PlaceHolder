@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.econClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.econClass">
 
     <TextView
         android:text="Economics"
@@ -22,8 +23,8 @@
 
     <Button
         android:text="Econ 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:id="@+id/button39"
         android:layout_below="@+id/textView12"
@@ -32,16 +33,16 @@
 
     <Button
         android:text="Econ 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button39"
         android:layout_centerHorizontal="true"
         android:id="@+id/button40" />
 
     <Button
         android:text="Econ 3a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button40"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -49,8 +50,8 @@
 
     <Button
         android:text="Econ 9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginTop="30dp"
         android:id="@+id/button42"
         android:layout_below="@+id/button39"
@@ -59,8 +60,8 @@
 
     <Button
         android:text="Econ 10a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button42"
         android:layout_alignLeft="@+id/button40"
         android:layout_alignStart="@+id/button40"
@@ -68,17 +69,28 @@
 
     <Button
         android:text="Econ 10b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/button43"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/button44" />
 
     <Button
+        android:text="Econ 100b"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/button45"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button42"
+        android:layout_alignEnd="@+id/button42" />
+
+    <Button
         android:text="Secret CLass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignBottom="@+id/button45"
         android:layout_alignRight="@+id/button43"
         android:layout_alignEnd="@+id/button43"
@@ -91,20 +103,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView13"
-        tools:textSize="45sp"
-        android:layout_marginBottom="27dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Econ 100b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button45"
-        android:layout_below="@+id/button42"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp" />
+        android:textSize="20sp"
+        android:layout_below="@+id/button45"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp" />
 
 </RelativeLayout>

@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.poliClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.poliClass">
 
     <TextView
         android:text="Poly Sci"
@@ -22,30 +23,21 @@
 
     <Button
         android:text="Poly S 6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button18"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/math3Abutton"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button19" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button19"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:id="@+id/button20"
-        android:text="Poly S 12" />
+        android:id="@+id/math3Bbutton" />
 
     <Button
         android:text="Poly S 15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button18"
-        android:layout_alignLeft="@+id/button18"
-        android:layout_alignStart="@+id/button18"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/math3Abutton"
+        android:layout_alignLeft="@+id/math3Abutton"
+        android:layout_alignStart="@+id/math3Abutton"
         android:layout_marginTop="26dp"
-        android:id="@+id/button21" />
+        android:id="@+id/math4Bbutton" />
 
     <TextView
         android:text="More to be added soon"
@@ -53,16 +45,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
         android:id="@+id/textView7"
-        android:layout_below="@+id/button21"
+        android:layout_below="@+id/math4Bbutton"
         android:layout_centerHorizontal="true"
         android:textSize="30sp" />
 
     <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/math4Abutton"
+        android:text="Poly S 12"
+        android:layout_alignBaseline="@+id/math3Bbutton"
+        android:layout_alignBottom="@+id/math3Bbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
         android:text="Poly S 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginTop="22dp"
-        android:id="@+id/button18"
+        android:id="@+id/math3Abutton"
         android:layout_below="@+id/textView6"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

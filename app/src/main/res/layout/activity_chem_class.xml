@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.chemClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.chemClass">
 
     <TextView
         android:text="Chemistry"
@@ -17,27 +18,27 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView8"
-        tools:textSize="36sp"
+        android:textSize="35sp"
         tools:textStyle="bold" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/button27"
         android:layout_alignLeft="@+id/button27"
         android:layout_alignStart="@+id/button27"
         android:layout_marginTop="25dp"
-        android:id="@+id/button30"
+        android:id="@+id/art7d"
         android:text="Chem 6a" />
 
     <Button
         android:text="MCDB 1a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button31"
-        android:layout_alignLeft="@+id/button29"
-        android:layout_alignStart="@+id/button29"
-        android:id="@+id/button32" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/arthi1"
+        android:layout_alignLeft="@+id/art7c"
+        android:layout_alignStart="@+id/art7c"
+        android:id="@+id/arthi6b" />
 
     <TextView
         android:text="More to be added soon..."
@@ -51,27 +52,27 @@
 
     <Button
         android:text="chem 1b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button28"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/art1a"
         android:layout_alignBaseline="@+id/button27"
         android:layout_alignBottom="@+id/button27"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Chem 1c"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button29"
-        android:layout_alignBaseline="@+id/button28"
-        android:layout_alignBottom="@+id/button28"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/art7c"
+        android:layout_alignBaseline="@+id/art1a"
+        android:layout_alignBottom="@+id/art1a"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <Button
         android:text="Chem 1a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:id="@+id/button27"
         android:layout_below="@+id/textView8"
@@ -80,12 +81,12 @@
 
     <Button
         android:text="Chem 6b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button31"
-        android:layout_alignBaseline="@+id/button30"
-        android:layout_alignBottom="@+id/button30"
-        android:layout_alignLeft="@+id/button28"
-        android:layout_alignStart="@+id/button28" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/arthi1"
+        android:layout_alignBaseline="@+id/art7d"
+        android:layout_alignBottom="@+id/art7d"
+        android:layout_alignLeft="@+id/art1a"
+        android:layout_alignStart="@+id/art1a" />
 
 </RelativeLayout>

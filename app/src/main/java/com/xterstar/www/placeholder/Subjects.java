@@ -6,12 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.xterstar.www.placeholder.SubjectActivities.artClass;
+import com.xterstar.www.placeholder.SubjectActivities.chemClass;
+import com.xterstar.www.placeholder.SubjectActivities.commClass;
+import com.xterstar.www.placeholder.SubjectActivities.csClass;
+import com.xterstar.www.placeholder.SubjectActivities.econClass;
+import com.xterstar.www.placeholder.SubjectActivities.ethClass;
+import com.xterstar.www.placeholder.SubjectActivities.mathClass;
+import com.xterstar.www.placeholder.SubjectActivities.otherClass;
+import com.xterstar.www.placeholder.SubjectActivities.physicsClass;
+import com.xterstar.www.placeholder.SubjectActivities.poliClass;
+import com.xterstar.www.placeholder.SubjectActivities.psychClass;
+
 public class Subjects extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subjects);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         final Button csbutton = (Button) findViewById(R.id.csbutton);
@@ -94,6 +108,14 @@ public class Subjects extends AppCompatActivity {
         econbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent registerIntent = new Intent(Subjects.this, econClass.class);
+                Subjects.this.startActivity(registerIntent);
+            }
+        });
+
+        final Button otherbutton = (Button) findViewById(R.id.otherbutton);
+        otherbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent registerIntent = new Intent(Subjects.this, otherClass.class);
                 Subjects.this.startActivity(registerIntent);
             }
         });

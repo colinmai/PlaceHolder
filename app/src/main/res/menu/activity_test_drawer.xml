@@ -8,34 +8,20 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/gallery"
+            android:icon="@drawable/aboutus"
             android:title="About Us" />
-        <item
-            android:id="@+id/nav_forum"
-            android:icon="@drawable/forum"
-            android:title="" />
         <item
             android:id="@+id/nav_contact"
             android:icon="@drawable/contact"
-            android:title="" />
+            android:title="Contact us" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
     </group>
-
-    <item android:title="">
-        <menu>
-            <item
-                android:id="@+id/nav_setting"
-                android:icon="@drawable/setting"
-                android:title="" />
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/share"
-                android:title="" />
-            <item
-                android:id="@+id/nav_aboutus"
-                android:icon="@drawable/aboutus"
-                android:title="" />
-
-        </menu>
-    </item>>
 
 </menu>

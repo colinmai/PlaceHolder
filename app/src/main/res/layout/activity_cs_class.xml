@@ -8,8 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.csClass"
-    android:background="@color/colorWhite">
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.csClass"
+    android:background="@drawable/gradient_background">
 
     <TextView
         android:text="Computer Science"
@@ -18,96 +18,65 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView2"
-        android:textSize="24sp"
+        android:textSize="35sp"
         tools:textSize="30sp"
         tools:textStyle="bold" />
 
     <Button
-        android:text="CS 8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="11dp"
-        android:id="@+id/button"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="CS 16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button2" />
-
-    <Button
-        android:text="CS 24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button2"
-        android:layout_toRightOf="@+id/button2"
-        android:layout_toEndOf="@+id/button2"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:id="@+id/button3" />
-
-    <Button
         android:text="CS 32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cs8button"
+        android:layout_alignLeft="@+id/cs8button"
+        android:layout_alignStart="@+id/cs8button"
         android:layout_marginTop="20dp"
-        android:id="@+id/button12" />
+        android:id="@+id/cs32button" />
 
     <Button
         android:text="CS 48"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button12"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:id="@+id/button13" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/cs32button"
+        android:layout_alignLeft="@+id/cs16button"
+        android:layout_alignStart="@+id/cs16button"
+        android:id="@+id/cs48button" />
 
     <Button
         android:text="CS 56"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button13"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:id="@+id/button14" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/cs48button"
+        android:layout_alignLeft="@+id/cs24button"
+        android:layout_alignStart="@+id/cs24button"
+        android:id="@+id/cs56button" />
 
     <Button
         android:text="CS 130a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button15"
-        android:layout_alignRight="@+id/button13"
-        android:layout_alignEnd="@+id/button13"
-        android:id="@+id/button16" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/cs64button"
+        android:layout_alignRight="@+id/cs48button"
+        android:layout_alignEnd="@+id/cs48button"
+        android:id="@+id/cs130Abutton" />
 
     <Button
         android:text="CS 64"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginTop="21dp"
-        android:id="@+id/button15"
-        android:layout_below="@+id/button12"
-        android:layout_alignLeft="@+id/button12"
-        android:layout_alignStart="@+id/button12" />
+        android:id="@+id/cs64button"
+        android:layout_below="@+id/cs32button"
+        android:layout_alignLeft="@+id/cs32button"
+        android:layout_alignStart="@+id/cs32button" />
 
     <Button
         android:text="CS 130b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button16"
-        android:layout_alignRight="@+id/button14"
-        android:layout_alignEnd="@+id/button14"
-        android:id="@+id/button17" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/cs130Abutton"
+        android:layout_alignRight="@+id/cs56button"
+        android:layout_alignEnd="@+id/cs56button"
+        android:id="@+id/cs130Bbutton" />
 
     <TextView
         android:text="More to be added soon...."
@@ -115,8 +84,37 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="94dp"
         android:id="@+id/textView5"
-        android:layout_below="@+id/button16"
+        android:layout_below="@+id/cs130Abutton"
         android:layout_centerHorizontal="true"
-        android:textSize="45sp" />
+        android:textSize="20sp" />
+
+    <Button
+        android:text="CS 8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/cs8button"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="CS 16"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/cs16button"
+        android:layout_alignBaseline="@+id/cs8button"
+        android:layout_alignBottom="@+id/cs8button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="CS 24"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/cs24button"
+        android:layout_alignBaseline="@+id/cs16button"
+        android:layout_alignBottom="@+id/cs16button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

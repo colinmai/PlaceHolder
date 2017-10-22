@@ -8,118 +8,124 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xterstar.www.placeholder.mathClass">
+    android:background="@drawable/gradient_background"
+    tools:context="com.xterstar.www.placeholder.SubjectActivities.mathClass">
 
     <TextView
-        android:text="Math"
+        android:text="Math and PSTAT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView6"
+        android:textSize="30dp"
         tools:textSize="36sp"
         tools:textStyle="bold" />
 
     <Button
         android:text="Math 3a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/textView6"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="16dp"
-        android:id="@+id/button18" />
+        android:id="@+id/math3Abutton" />
 
     <Button
         android:text="Math 4b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginTop="25dp"
-        android:id="@+id/button21"
-        android:layout_below="@+id/button18"
+        android:id="@+id/math4Bbutton"
+        android:layout_below="@+id/math3Abutton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
         android:text="Math 6b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button22"
-        android:layout_alignLeft="@+id/button20"
-        android:layout_alignStart="@+id/button20"
-        android:id="@+id/button23" />
-
-    <Button
-        android:text="Math 6b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button24"
-        android:layout_below="@+id/button21"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="26dp" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/math6Abutton"
+        android:layout_alignLeft="@+id/math4Abutton"
+        android:layout_alignStart="@+id/math4Abutton"
+        android:id="@+id/math6Bbutton" />
 
     <Button
         android:text="Pstat 120a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button24"
-        android:layout_alignLeft="@+id/button22"
-        android:layout_alignStart="@+id/button22"
-        android:id="@+id/button25"
-        android:layout_alignRight="@+id/button22"
-        android:layout_alignEnd="@+id/button22" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/math8button"
+        android:layout_alignLeft="@+id/math6Abutton"
+        android:layout_alignStart="@+id/math6Abutton"
+        android:id="@+id/PSTAT120Abutton"
+        android:layout_alignRight="@+id/math6Abutton"
+        android:layout_alignEnd="@+id/math6Abutton"
+        android:textSize="12sp" />
 
     <Button
         android:text="Pstat 120b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button26"
-        android:layout_alignBaseline="@+id/button25"
-        android:layout_alignBottom="@+id/button25"
-        android:layout_alignLeft="@+id/button23"
-        android:layout_alignStart="@+id/button23"
-        android:layout_alignRight="@+id/button23"
-        android:layout_alignEnd="@+id/button23" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/PSTAT120Bbutton"
+        android:layout_alignBaseline="@+id/PSTAT120Abutton"
+        android:layout_alignBottom="@+id/PSTAT120Abutton"
+        android:layout_alignLeft="@+id/math6Bbutton"
+        android:layout_alignStart="@+id/math6Bbutton"
+        android:layout_alignRight="@+id/math6Bbutton"
+        android:layout_alignEnd="@+id/math6Bbutton"
+        android:textSize="12sp" />
 
     <Button
         android:text="Math 6a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button22"
-        android:layout_alignBaseline="@+id/button21"
-        android:layout_alignBottom="@+id/button21"
-        android:layout_alignLeft="@+id/button19"
-        android:layout_alignStart="@+id/button19" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/math6Abutton"
+        android:layout_alignBaseline="@+id/math4Bbutton"
+        android:layout_alignBottom="@+id/math4Bbutton"
+        android:layout_alignLeft="@+id/math3Bbutton"
+        android:layout_alignStart="@+id/math3Bbutton" />
 
     <Button
         android:text="Math 3b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button19"
-        android:layout_alignBaseline="@+id/button18"
-        android:layout_alignBottom="@+id/button18"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/math3Bbutton"
+        android:layout_alignBaseline="@+id/math3Abutton"
+        android:layout_alignBottom="@+id/math3Abutton"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Math 4a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button20"
-        android:layout_alignBaseline="@+id/button19"
-        android:layout_alignBottom="@+id/button19"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/math4Abutton"
+        android:layout_alignBaseline="@+id/math3Bbutton"
+        android:layout_alignBottom="@+id/math3Bbutton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Math 8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/math8button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="More to be added soon..."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView7"
+        android:textSize="20dp"
         tools:textSize="45sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/PSTAT120Bbutton"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
 
 </RelativeLayout>

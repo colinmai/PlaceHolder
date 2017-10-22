@@ -9,125 +9,135 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.xterstar.www.placeholder.Subjects"
-    android:background="@color/colorWhite">
+    android:background="@drawable/gradient_background">
+
 
     <TextView
         android:text="Subjects"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        tools:textSize="36sp"
+        android:textSize="35dp"
+        tools:textSize="40sp"
+        tools:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColorLink="@android:color/holo_green_light"
-        tools:textColor="@color/colorPrimaryLight"
-        tools:textStyle="bold"
-        android:soundEffectsEnabled="?attr/isLightTheme" />
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="false" />
 
     <Button
         android:text="Computer Science"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="50dp"
         android:id="@+id/csbutton"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="             Math              "
-        android:layout_width="150dp"
+        android:text="Chemistry"
+        android:layout_width="160dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/csbutton"
-        android:layout_marginLeft="42dp"
-        android:layout_marginStart="42dp"
-        android:id="@+id/mathbutton" />
+        android:layout_marginTop="15dp"
+        android:id="@+id/chembutton"
+        android:layout_below="@+id/mathbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:text="          Physics          "
-        android:layout_width="150dp"
+        android:text="Economics"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/econbutton"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/physicsbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/psychbutton"
+        android:text="      Psychology      "
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/polibutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Math"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/mathbutton"
+        android:layout_alignBaseline="@+id/csbutton"
+        android:layout_alignBottom="@+id/csbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:text="Physics"
+        android:layout_width="160dp"
         android:layout_height="50dp"
         android:id="@+id/physicsbutton"
         android:layout_alignBaseline="@+id/chembutton"
         android:layout_alignBottom="@+id/chembutton"
-        android:layout_alignLeft="@+id/mathbutton"
-        android:layout_alignStart="@+id/mathbutton" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
 
     <Button
-        android:text="        Economics        "
-        android:layout_width="150dp"
+        android:text="Poli Sci"
+        android:layout_width="160dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/chembutton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="22dp"
-        android:id="@+id/econbutton" />
-
-    <Button
-        android:text="           Poli Sci          "
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_alignTop="@+id/econbutton"
-        android:layout_alignLeft="@+id/physicsbutton"
-        android:layout_alignStart="@+id/physicsbutton"
         android:id="@+id/polibutton"
-        android:layout_alignBottom="@+id/econbutton" />
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="25dp"
-        android:id="@+id/psychbutton"
-        android:layout_below="@+id/econbutton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="      Psychology      " />
+        android:layout_alignBaseline="@+id/econbutton"
+        android:layout_alignBottom="@+id/econbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
 
     <Button
         android:text="Communications"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="50dp"
+        android:id="@+id/commbutton"
+        android:layout_alignBaseline="@+id/psychbutton"
         android:layout_alignBottom="@+id/psychbutton"
-        android:layout_alignLeft="@+id/polibutton"
-        android:layout_alignStart="@+id/polibutton"
-        android:id="@+id/commbutton" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
 
     <Button
-        android:text="         Art/Music        "
-        android:layout_width="150dp"
+        android:text="Other"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginTop="28dp"
+        android:id="@+id/otherbutton"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:text="Art/Music"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
         android:id="@+id/artbutton"
-        android:layout_below="@+id/psychbutton"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/commbutton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="        Ethnicity        "
-        android:layout_width="150dp"
+        android:text="Ethnicity"
+        android:layout_width="160dp"
         android:layout_height="50dp"
-        android:layout_alignTop="@+id/artbutton"
-        android:layout_alignLeft="@+id/commbutton"
-        android:layout_alignStart="@+id/commbutton"
-        android:id="@+id/ethbutton" />
-
-    <Button
-        android:text="            Other            "
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="21dp"
-        android:id="@+id/otherbutton" />
-
-    <Button
-        android:text="        Chemistry        "
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:id="@+id/chembutton"
-        android:layout_below="@+id/csbutton"
-        android:layout_alignRight="@+id/artbutton"
-        android:layout_alignEnd="@+id/artbutton" />
+        android:id="@+id/ethbutton"
+        android:layout_alignBaseline="@+id/artbutton"
+        android:layout_alignBottom="@+id/artbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
 
 </RelativeLayout>
